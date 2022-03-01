@@ -26,7 +26,10 @@ class ViewController: UIViewController {
   }
 
   @IBAction func tapQuoteGeneratorButton(_ sender: Any) {
+    let random = Int(arc4random_uniform(5))
+    let quote = quotes[random]
+    self.quoteLabel.text = quote.contents
+    self.nameLabel.text = quote.name
   }
-
 }
 
