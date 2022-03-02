@@ -1,3 +1,4 @@
-# KDC-01-FamousSayingGenerator
+# K-Digital Credit Class practice
 
-K-Digital Credit Class practice 01: 명언 생성기
+1. 명언 생성기
+2. LED 전광판
