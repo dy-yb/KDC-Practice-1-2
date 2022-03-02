@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/daye/git_dy-yb/KDC-01-FamousSayingGenerator/KDC-Practice.xcodeproj">
    </FileRef>
 </Workspace>

@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		615D1AC427CE591C00F315A1 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
-		61B2E41127CC7B5100CE0948 /* KDC-01-FamousSayingGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KDC-01-FamousSayingGenerator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B2E41127CC7B5100CE0948 /* KDC-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KDC-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B2E41427CC7B5100CE0948 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61B2E41627CC7B5100CE0948 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		61B2E41827CC7B5200CE0948 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		61B2E40827CC7B5100CE0948 = {
 			isa = PBXGroup;
 			children = (
-				61B2E41327CC7B5100CE0948 /* KDC-01-FamousSayingGenerator */,
+				61B2E41327CC7B5100CE0948 /* KDC-Practice */,
 				61B2E41227CC7B5100CE0948 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		61B2E41227CC7B5100CE0948 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				61B2E41127CC7B5100CE0948 /* KDC-01-FamousSayingGenerator.app */,
+				61B2E41127CC7B5100CE0948 /* KDC-Practice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		61B2E41327CC7B5100CE0948 /* KDC-01-FamousSayingGenerator */ = {
+		61B2E41327CC7B5100CE0948 /* KDC-Practice */ = {
 			isa = PBXGroup;
 			children = (
 				61B2E41427CC7B5100CE0948 /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				61B2E42227CC7B5300CE0948 /* Info.plist */,
 				615D1AC427CE591C00F315A1 /* Quote.swift */,
 			);
-			path = "KDC-01-FamousSayingGenerator";
+			path = "KDC-Practice";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		61B2E41027CC7B5100CE0948 /* KDC-01-FamousSayingGenerator */ = {
+		61B2E41027CC7B5100CE0948 /* KDC-Practice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61B2E42527CC7B5300CE0948 /* Build configuration list for PBXNativeTarget "KDC-01-FamousSayingGenerator" */;
+			buildConfigurationList = 61B2E42527CC7B5300CE0948 /* Build configuration list for PBXNativeTarget "KDC-Practice" */;
 			buildPhases = (
 				61B2E40D27CC7B5100CE0948 /* Sources */,
 				61B2E40E27CC7B5100CE0948 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "KDC-01-FamousSayingGenerator";
+			name = "KDC-Practice";
 			productName = "KDC-01-FamousSayingGenerator";
-			productReference = 61B2E41127CC7B5100CE0948 /* KDC-01-FamousSayingGenerator.app */;
+			productReference = 61B2E41127CC7B5100CE0948 /* KDC-Practice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 61B2E40C27CC7B5100CE0948 /* Build configuration list for PBXProject "KDC-01-FamousSayingGenerator" */;
+			buildConfigurationList = 61B2E40C27CC7B5100CE0948 /* Build configuration list for PBXProject "KDC-Practice" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				61B2E41027CC7B5100CE0948 /* KDC-01-FamousSayingGenerator */,
+				61B2E41027CC7B5100CE0948 /* KDC-Practice */,
 			);
 		};
 /* End PBXProject section */
@@ -345,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		61B2E40C27CC7B5100CE0948 /* Build configuration list for PBXProject "KDC-01-FamousSayingGenerator" */ = {
+		61B2E40C27CC7B5100CE0948 /* Build configuration list for PBXProject "KDC-Practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61B2E42327CC7B5300CE0948 /* Debug */,
@@ -354,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61B2E42527CC7B5300CE0948 /* Build configuration list for PBXNativeTarget "KDC-01-FamousSayingGenerator" */ = {
+		61B2E42527CC7B5300CE0948 /* Build configuration list for PBXNativeTarget "KDC-Practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61B2E42627CC7B5300CE0948 /* Debug */,
