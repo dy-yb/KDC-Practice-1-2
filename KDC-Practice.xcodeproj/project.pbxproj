@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		615D1AC527CE591C00F315A1 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615D1AC427CE591C00F315A1 /* Quote.swift */; };
+		615D1ACD27CF371700F315A1 /* LEDSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615D1ACC27CF371700F315A1 /* LEDSettingViewController.swift */; };
 		61B2E41527CC7B5100CE0948 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B2E41427CC7B5100CE0948 /* AppDelegate.swift */; };
 		61B2E41727CC7B5100CE0948 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B2E41627CC7B5100CE0948 /* SceneDelegate.swift */; };
 		61B2E41927CC7B5200CE0948 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B2E41827CC7B5200CE0948 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		615D1AC427CE591C00F315A1 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		615D1ACC27CF371700F315A1 /* LEDSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDSettingViewController.swift; sourceTree = "<group>"; };
 		61B2E41127CC7B5100CE0948 /* KDC-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KDC-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B2E41427CC7B5100CE0948 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61B2E41627CC7B5100CE0948 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,12 +62,13 @@
 			children = (
 				61B2E41427CC7B5100CE0948 /* AppDelegate.swift */,
 				61B2E41627CC7B5100CE0948 /* SceneDelegate.swift */,
-				61B2E41827CC7B5200CE0948 /* ViewController.swift */,
+				615D1AC427CE591C00F315A1 /* Quote.swift */,
 				61B2E41A27CC7B5200CE0948 /* Main.storyboard */,
+				615D1ACC27CF371700F315A1 /* LEDSettingViewController.swift */,
+				61B2E41827CC7B5200CE0948 /* ViewController.swift */,
 				61B2E41D27CC7B5300CE0948 /* Assets.xcassets */,
 				61B2E41F27CC7B5300CE0948 /* LaunchScreen.storyboard */,
 				61B2E42227CC7B5300CE0948 /* Info.plist */,
-				615D1AC427CE591C00F315A1 /* Quote.swift */,
 			);
 			path = "KDC-Practice";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				61B2E41927CC7B5200CE0948 /* ViewController.swift in Sources */,
 				61B2E41527CC7B5100CE0948 /* AppDelegate.swift in Sources */,
 				61B2E41727CC7B5100CE0948 /* SceneDelegate.swift in Sources */,
+				615D1ACD27CF371700F315A1 /* LEDSettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +299,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R4HW69RLJ5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "KDC-01-FamousSayingGenerator/Info.plist";
+				INFOPLIST_FILE = "KDC-Practice/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -306,7 +310,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jjong.KDC-01-FamousSayingGenerator";
+				PRODUCT_BUNDLE_IDENTIFIER = "jjong.KDC-Practice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,7 +327,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R4HW69RLJ5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "KDC-01-FamousSayingGenerator/Info.plist";
+				INFOPLIST_FILE = "KDC-Practice/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +338,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jjong.KDC-01-FamousSayingGenerator";
+				PRODUCT_BUNDLE_IDENTIFIER = "jjong.KDC-Practice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
